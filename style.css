@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Anton", sans-serif;
+  color: #adefd1ff;
+}
+
+body {
+  background: #00203fff;
+}
+
+#canvas {
+  background: #adefd1ff;
+  border-radius: 10px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #9984d4;
+}
+
+.high-score {
+  position: absolute;
+  top: 1.5rem;
+  width: 80%;
+  left: 10%;
+  text-align: center;
+  font-size: 20px;
+}
+
+.button-container {
+  position: absolute;
+  top: 85%;
+  left: 10%;
+  width: 80%;
+  height: 5%;
+  display: flex;
+}
+
+button {
+  flex: 1;
+  font-size: 20px;
+  cursor: pointer;
+  background: cornflowerblue;
+  color: #00203fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #adefd1ff;
+  border-radius: 5px;
+  margin: 5px;
+  border: none;
+  transition: all 0.4s ease 0s;
+}
+
+button:hover {
+  background: rgb(58, 179, 124);
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0, 0, 0, 0.57);
+  box-shadow: 5px 40px -10px rgba(0, 0, 0, 0.57);
+  transition: all 0.4s ease 0s;
+}
+
+.reset {
+  cursor: pointer;
+  font-size: 20px;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%);
+  width: 20%;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  background: red;
+  color: white;
+}
